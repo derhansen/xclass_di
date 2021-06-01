@@ -1,0 +1,22 @@
+{
+    "name": "derhansen/xclass-di",
+    "type": "typo3-cms-extension",
+    "description": "Test Extension to evaluate DI when xclassing an extbase controller",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "dev-master",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Derhansen\\XclassDi\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "xclass_di"
+        }
+    }
+}
