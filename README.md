@@ -1,4 +1,4 @@
-###Test Extension to evaluate DI when xclassing an extbase controller
+### Test Extension to evaluate DI when xclassing an extbase controller
 
 The extension xclassed `TYPO3\CMS\Belog\Controller\BackendLogController` and
 tries to add an additional dependeny using controller DI.
