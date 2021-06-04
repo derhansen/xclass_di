@@ -6,3 +6,6 @@ services:
 
   Derhansen\XclassDi\:
     resource: '../Classes/*'
+
+  TYPO3\CMS\Belog\Controller\BackendLogController: '@Derhansen\XclassDi\Controller\ExtendedBackendLogController'
+
